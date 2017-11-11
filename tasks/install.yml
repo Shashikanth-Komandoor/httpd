@@ -1,0 +1,4 @@
+- name: Installation of httpd
+  yum: 
+      name: httpd
+      state: latest
